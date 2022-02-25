@@ -417,6 +417,9 @@ form.example input[type=text] {
 
     .about {
         height: 200vh;
+        display: flex;
+        flex-direction: column;
+        
     }
     
     .about h2 {
@@ -428,13 +431,15 @@ form.example input[type=text] {
         width: 85%;
     }
     .about-container .text h3 {
-        font-size: 7vh;
+        font-size: 4vh;
         padding: 2%;
         margin-top: 10%;
     }
     .about-container .text p{
-        font-size: 4vh;
-        padding: 2%;
+        font-size: 2.5vh;
+        padding: 3%;
+        margin: 0 auto;
+        text-align: center;
     }
     
     /* contact us section */
