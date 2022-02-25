@@ -179,14 +179,13 @@ i{
     opacity: .75;
     padding: 0%;
     justify-content: center;
-
-    
+   
 }
 
 .menubody{
     width: 100%;
-    padding: 2% 5%;
-    margin: auto;
+    padding-left: 20%;
+    padding-bottom: 5%;
     align-items: center;
     }
 
@@ -196,7 +195,7 @@ i{
 }
   
 .menu-item{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
