@@ -85,12 +85,57 @@ p, a {
 
 /* header section */
 header {
+    
     width: 100%;
     height: 100vh;
     background-image: url('../img/home-header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 20%;
+    
+    
+}
+.header-text{
+    padding: 0%;
+    color:white;
+    font-family: 'Roboto';
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.header-text a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-text h1 a{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+
+}
+
+.header-text .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%
+    
+}
+
+.header-text .links a{
+    font-size: 2.5rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 3rem;
+}
+
+i{
+    padding: 0 5%;
 }
 
 /* spacers */
@@ -112,9 +157,37 @@ header {
     text-align: center;
     background-color: rgb(0, 4, 17);
 }
+.gallery h2{
+    display:flex;
+    color: white;
+    justify-content: center;
+    font-size: 105 ;
+    padding: 1%;
+    
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.row div{
+    width: 25%;
+    margin: 2% 0;
+}
+
+img{
+    width: 90%
+}
+
 
 /* about us section */
 .about {
+    display: flex;
     width: 100%;
     height: 75vh;
     text-align: center;
