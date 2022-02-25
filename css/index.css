@@ -371,11 +371,46 @@ form.example input[type=text] {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4rem;
+        
+    }
     
+
+    .header-text .links {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
+    }
+
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .row .element{
+        width: 100%;
+       
+        padding: 0%;
     }
     
     /* about us section */
@@ -391,6 +426,15 @@ form.example input[type=text] {
     
     .about-container .text {
         width: 85%;
+    }
+    .about-container .text h3 {
+        font-size: 7vh;
+        padding: 2%;
+        margin-top: 10%;
+    }
+    .about-container .text p{
+        font-size: 4vh;
+        padding: 2%;
     }
     
     /* contact us section */
@@ -421,5 +465,52 @@ form.example input[type=text] {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border: none
     }
+
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer nav .email{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    footer nav .email form button{
+        width: 25vh;
+    }
+
+    footer nav .links{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .copyright {
+        display:flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
 }
