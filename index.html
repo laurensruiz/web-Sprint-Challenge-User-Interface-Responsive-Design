@@ -4,11 +4,13 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -16,39 +18,45 @@
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
+				<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+				<nav>
+					<!-- nav -->
+					<div class="links">
+					<a href="menu.html">Menu</a>
+					<a href="#">Reservations</a>
+					<a href="#">Special Offers</a>
+					<a href="#">Contact</a>
+									
+					</div>
+					<div class="social">
+						<i class="fab fa-facebook-square"></i></a>
+						<i class="fab fa-twitter-square"></i></a>
+						<i class="fab fa-instagram"></i></a>
+						
+					</div>
 
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				</nav>
+				
 			</div>
 		</header>
+		<section id="top">
+			<img src="img/home-header.jpg">
+		</section>
 
 		<!-- gallery section -->
 		<section class="gallery">
-			<div>
 				<h2>OUR FOOD</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
-			</div>
+				<div class="gallery-container">
+					<img src="img/food-avocadotoast.jpg">
+					<img src="img/food-burger.jpg">
+					<img src="img/food-poutine.jpg">
+					<img src="img/food-ribs.jpg">
+					<img src="img/food-sandwich.jpg">
+					<img src="img/food-sausage.jpg">
+					<img src="img/food-steak.jpg">
+					<img src="img/food-tacos.jpg">
+					<img src="img/food-wings.jpg">
+				</div>
 		</section>
 
 		<!-- spacer -->
@@ -125,15 +133,25 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<h3>Join our mailing list!</h3>
+			<form class="example" action="action_page.php">
+				<input type="text" placeholder="Email Address" name="search">
+				<button type="submit">Sign Up</button>
+			  </form>
+			
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+			<div class="links">
+				<a href="menu.html">Menu</a>
+				<a href="#">Reservations</a>
+				<a href="#">Special Offers</a>
+				<a href="#">Contact</a>		
+			</div>
+		</nav>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<div class="copyright">
+			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+		</div>
 		</footer>
 	</div>
 </body>
